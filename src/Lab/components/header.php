@@ -9,14 +9,16 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-icon-hover" href="javascript:void(0)">
-                                <i class="ti ti-bell-ringing"></i>
-                                <div class="notification bg-primary rounded-circle"></div>
+                            
+                        <img src="../assets/images/logos/logo.png" width="180" alt="" />
+                    
                             </a>
                         </li>
                     </ul>
                     <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
                         <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-                            <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/"
+                        <!--upload btn-->    
+                        <a href="#"
                                 target="_blank" class="btn btn-primary">Upload File</a>
                             <li class="nav-item dropdown">
                                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2"
