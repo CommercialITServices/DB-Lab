@@ -3,7 +3,7 @@
 <!-- head -->
 <?php
 session_start();
-if(isset($_SESSION['uniqueid']) && !empty($_SESSION['uniqueid'])){
+if(isset($_SESSION['userId']) && !empty($_SESSION['userId'])){
 
 
  include ("components/head.php");
@@ -103,11 +103,6 @@ if(isset($_SESSION['uniqueid']) && !empty($_SESSION['uniqueid'])){
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  
-  <?php
-   include ("./adminPartails/footer.php");
-  ?>
-
 <script>
 //toast
 window.toast = function($msg='',$type=''){

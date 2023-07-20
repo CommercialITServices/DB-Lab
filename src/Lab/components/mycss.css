@@ -1,0 +1,10 @@
+@media screen and (max-width: 1360px){
+    .container-flui{
+        margin: 0 auto auto 290px;
+    }
+}
+@media screen and (max-width: 1360px){
+    .container-flui{
+        margin: 0 auto;
+    }
+}

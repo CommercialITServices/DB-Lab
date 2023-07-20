@@ -69,7 +69,7 @@
         },
         success: function(resp){
           if(resp == 1){
-            location.replace('./home.php')
+            location.replace('./index.php')
             }else if(resp == 2){
               alert("Incorrect Details.")
                 $('#loginBtn').removeAttr('disable')
